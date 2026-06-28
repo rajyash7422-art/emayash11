@@ -11,7 +11,7 @@ import pytz
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID   = os.environ.get("TELEGRAM_CHAT_ID", "")
 CSV_FILE           = "stocks.csv"          # Chartink se download kiya hua
-EMA_PERIODS        = [5, 9, 13, 21]        # Jo EMAs track karne hain
+EMA_PERIODS        = [5, 8, 10, 21]        # Jo EMAs track karne hain
 IST                = pytz.timezone("Asia/Kolkata")
 
 # ─── MARKET HOURS CHECK ───────────────────────────────────────────────────────
